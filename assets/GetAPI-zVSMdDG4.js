@@ -1,0 +1,1 @@
+import{e as t}from"./index-Dk3PDzU5.js";const n=async r=>{try{const o=await fetch(`${t.API_URL}${r}`,{method:"GET",headers:{"Content-Type":"application/json",Accept:"application/json"}});if(!o.ok){const e=await o.json();throw new Error(e.message||"Network response was not ok")}return await o.json()}catch(o){throw console.error("Error in GetAPI:",o),o}};export{n as G};

@@ -1,0 +1,1 @@
+import{j as a}from"./index-Dk3PDzU5.js";const i=({children:s,className:o="",onClick:r,...t})=>a.jsx("div",{className:`rounded-xl bg-white p-5 shadow-md transition-transform ${o}`,onClick:r,...t,children:s});export{i as C};
