@@ -1,0 +1,1 @@
+import{h as a}from"./vendor-ui-D-W4xDah.js";import"./vendor-react-pOJj_1mY.js";const d=({children:s,className:o="",onClick:r,...t})=>a.jsx("div",{className:`rounded-xl bg-white p-5 shadow-md transition-transform ${o}`,onClick:r,...t,children:s});export{d as C};

@@ -1,0 +1,1 @@
+import{c as e}from"./config-BbshSSl6.js";const n=async r=>{try{const o=await fetch(`${e.API_URL}${r}`,{method:"GET",headers:{"Content-Type":"application/json",Accept:"application/json"}});if(!o.ok){const t=await o.json();throw new Error(t.message||"Network response was not ok")}return await o.json()}catch(o){throw console.error("Error in GetAPI:",o),o}};export{n as G};
